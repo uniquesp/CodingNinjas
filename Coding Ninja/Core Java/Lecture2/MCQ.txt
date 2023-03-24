@@ -1,0 +1,75 @@
+Size of long : 8
+
+Which of the following data type stores longest decimal number ?: Double
+
+Which of these values can be assigned to a boolean variable in Java?: true false
+
+Which of these is a valid variable name ?: var1
+
+Compiler never assigns a default value to an uninitialized local variable in Java Programming. Whether this statement is true or false ?: true
+
+What is the output of the following code if the input is : 5 10 ?
+Scanner s = new Scanner(System.in);
+int a = s.nextInt();
+int b = s.nextInt();
+System.out.println(a+b);
+Ans: 15
+
+What is the output of the following code if the input string is "Career Labs"?
+Scanner s = new Scanner(System.in);
+String str;
+str = s.next();
+System.out.print(str);
+Ans: Career
+
+What is the output of the following code if input is :
+10 abc def
+
+Scanner s = new Scanner(System.in);
+int a = s.nextInt();
+String str = s.next();
+System.out.print(a);
+System.out.println(str);
+Ans: 10abc
+
+What is the output of the following code if input is : abc def 10
+Scanner s = new Scanner(System.in);
+String str = s.next();
+int a = s.nextInt();
+System.out.print(str + " " + a);
+Ans: InputMissmatchException
+
+What is the error in this code?
+byte b = 50;
+b = b * 50;
+Ans: *operator converted to b*50 into int which can not be converted into byte without casting
+
+public class  Solution{
+    public static void main(String [] args)  {
+        double a = 6 / 4;
+        int b  = 6 / 4;
+        double c = a + b;
+        System.out.println(c);
+    }
+}
+: 2.0
+
+public class  Solution{
+    public static void main(String [] args)  {
+        double a = 55.5;
+        int b = 55;
+        a = a % 10;
+        b = b % 10;
+        System.out.println(a + " "  + b);
+      }
+ }
+: 5.55
+
+public class  Solution {
+    public static void main(String [] args)  {
+        int var1 = 5;
+        int var2 = 6;
+        System.out.print(var1 > var2);
+    }
+}
+:false
