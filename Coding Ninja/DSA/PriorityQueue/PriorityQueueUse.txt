@@ -1,0 +1,16 @@
+import java.util.PriorityQueue;
+public class PriorityQueueUse {
+ public static void main(String[] args) {
+
+        // PriorityQueueMin PQ = new PriorityQueueMin();
+         PriorityQueueMax PQ = new PriorityQueueMax();
+        int arr[] = {5,1,9,2,0};
+        for(int i=0;i<arr.length;i++){
+            PQ.insert(arr[i]);
+        }
+        while(!PQ.isEmpty()){
+            System.out.print(PQ.removeMax()+" ");
+        }
+        System.out.println();
+    }
+}

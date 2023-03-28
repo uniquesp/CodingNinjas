@@ -1,0 +1,27 @@
+import java.util.*;
+public class Solution {
+
+	public static int kthLargest(int n, int[] input, int k) {
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
+		
+		int i=0;
+		for(;i<k;i++){
+			pq.add(input[i]);
+		}
+		for(;i<input.length;i++){
+			int min = pq.element();
+			if(min<input[i]){
+				pq.remove();
+				pq.add(input[i]);
+			}
+		}
+
+		 int minVal=Integer.MAX_VALUE;
+        while(!pq.isEmpty()){
+            int check=pq.remove();
+            if(check<minVal)
+                minVal=check;
+        }
+        return minVal;
+	}
+}
