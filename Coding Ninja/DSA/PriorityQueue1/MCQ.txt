@@ -1,0 +1,66 @@
+1) Passengers List
+Given is a waiting list of IRCTC , based on the booking date (early booking means more priority ). Arrange the following passenger in order of their ticket confirmation. ( The passenger who gets the ticket first, comes first).
+Name      Booking Date
+A               5/12/19
+B               8/12/19
+C               2/12/19
+D               7/12/19
+Solution: CADB
+
+
+2)With which data structure can a priority queue be implemented?
+Solution: ALL ABOVE
+
+
+3)Time Complexity
+Match the following time complexities to implement insertion into a Priority Queue using the following methods.
+1. Arrays (sorted)               A. O(logn)
+2. Linked List(unsorted)         B. O(n)
+3. Balanced BST                  C. O(1)
+Solution: 1->B 2->C 3->a
+
+
+4)Heap
+What is the minimum number of elements in a heap of level 4?
+(The root of the tree is at level 0.)
+Solution: 16
+
+
+5)Height of CBT
+The height of Complete Binary tree is in terms of :
+Solution: log n 
+
+
+6)Parent Node
+If a CBT is stored using array , then what is the parent node of element stored at index 11?
+Solution: 5
+
+7)Child Node
+The child of a node at index i are stored at index xi+1 and xi+x. Here x is:
+Solution: 2
+
+
+8)Heap
+We can use Balanced BST as a Heap?
+Solution: false
+
+
+9) Min Heap
+The topmost element of min heap stores :
+Solution: minimum value node
+
+
+10)Insertion in Max Heap
+Consider a max heap, represented by the array: 40, 30, 20, 10, 15, 16, 17, 8, 4. Now consider that a value 35 is inserted into this heap. After insertion, the new heap is:
+Solution: 40, 35, 20, 10, 30, 16, 17, 8, 4, 15 
+
+
+11)Insertion in PQ - MaxHeap
+A Priority-Queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order traversal of the heap is given below: 10, 8, 5, 3, 2 Two new elements ”1‘ and ”7‘ are inserted in the heap in that order. The level-order traversal of the heap after the insertion of the elements is:
+Solution: 10,8,7,3,2,1,5
+
+12)Re-heap After Removal
+An operator delete(i) for a binary heap data structure is to be designed to delete the item in the i-th node. Assume that the heap is implemented in an array and i refers to the i-th index of the array. If the heap tree has depth d (number of edges on the path from the root to the farthest leaf), then what is the time complexity to re-fix the heap efficiently after the removal of the element?
+Solution: O(d) but not O(1)
+
+
