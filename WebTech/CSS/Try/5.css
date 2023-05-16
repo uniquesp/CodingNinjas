@@ -1,0 +1,33 @@
+html{
+    font-size: 30px;
+}
+
+#outer-div{
+border: 2px solid black;
+margin: 20px;
+}
+
+#div1{
+height: 200px;
+width: 200px;
+background-color: blueviolet;
+}
+#div2{
+height: 200px;
+width: 200px;
+background-color: rgb(239, 20, 225);
+position: sticky;
+/* left: 20px;
+bottom: 20px; */
+
+}
+#div3{
+height: 200px;
+width: 200px;
+background-color: rgb(157, 3, 111);
+}
+#div4{
+height: 200px;
+width: 200px;
+background-color: rgb(221, 12, 71);
+}
